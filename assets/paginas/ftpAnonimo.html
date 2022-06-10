@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FTP anônimo</title>
+    </head>
+    <body>
+        <h1>Obtendo os arquivos WWW</h1>
+        <p>
+            Leia isso se você ainda não tem os arquivos WWW que você precisa e você não pode montar um diretório no qual eles residem.
+        </p>
+        <p>
+            A fonte e o binário dos arquivos do projeto WWW estão atualmente disponíveis (ver <a href="">copyright</a> ) por FTP anônimo do nó info.cern.ch. Este nó é atualmente 128.141.201.74, mas ESTA MUDANÇA DE MAIO. Os arquivos são arquivos de fita compactada (.tar. Z). Para obter um arquivo usando FTP anônimo, use o nome de usuário "anônimo" e seu endereço de e-mail como senha:-
+        </p>
+
+        <p>
+            > ftp info.cern.ch Digite o nome do usuário: anônimo Senha: me@myhost.edu ftp> cd /pub/www/src ftp> ftp binário> obter ftp WWWLineMode_vvv.tar.Z ftp> sair >
+        </p>
+
+        <p>
+            O nome do arquivo dependerá do produto que você deseja. Aqui vvv é o número de versão do software.
+        </p>
+
+        <p>
+            Uma vez que você tenha o arquivo de piche comprimido, você deve descompactá-lo e desembrulhá-lo.
+            <ul>
+                <li> descomprimir WWWLineMode_vvv.tar.Z </li>
+            </ul>
+        </p>
+
+        <p>
+            Isso fará um arquivo um pouco maior com o nome sem o ". Z". Para desembrulhá-lo,
+            <ul>
+                <li>piche xvf WWWLineMode_vvv.tar </li>
+            </ul>
+        </p>
+
+        <p>
+            Agora você deve <a href="">instalar o navegador de modo de linha, instalar o servidor, instalar Viola</a>, etc.
+        </p>
+
+        <p>
+            <a href=""><i>Tim BL</i></a>
+        </p>
+    </body>
+</html>
